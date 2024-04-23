@@ -10,7 +10,7 @@ function WeatherDisplay({ weather }) {
       <p style={{ color: temperatureColor }}>Temperature: {weather.temperature}</p>
       
       {/* Display weather conditions */}
-      <p>Conditions: {weather.conditions}</p>
+      <span>Conditions: {weather.conditions}</span>
     </div>
   );
 }

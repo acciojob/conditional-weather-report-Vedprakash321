@@ -4,8 +4,6 @@ import WeatherDisplay from './WeatherDisplay';
 import './../styles/App.css';
 
 const App = () => {
-
-   // Initialize weather data state with default values
   const [weatherData, setWeatherData] = useState({ temperature: 0, conditions: "" });
 
   // Simulate fetching weather data
